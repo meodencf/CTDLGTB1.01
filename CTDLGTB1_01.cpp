@@ -3,7 +3,6 @@
 
 using namespace std;
 
-const int Max=100;
 
 int tinhtong(int a[], int n){
 	if (n == 0)
@@ -20,7 +19,7 @@ void xuattong(int a[], int n){
 }
 int main() {
 	int n;
-	int a[Max];
+	int a[n];
 	cout << "Nhap kich thuoc mang: ";
 	cin >> n;
 	for (int i = 1; i <= n;i++) {
